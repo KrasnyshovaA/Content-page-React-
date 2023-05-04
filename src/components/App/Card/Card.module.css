@@ -1,0 +1,95 @@
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 80px;
+  grid-row-gap: 0px;
+}
+
+.card__1 {
+
+  width: 320px;
+  height: 320px;
+  margin-top: 110px;
+  border-radius: 15px;
+}
+
+.card__2 {
+
+  width: 320px;
+  height: 320px;
+  margin-top: 110px;
+  border-radius: 15px;
+}
+
+.card__3 {
+
+  width: 320px;
+  height: 320px;
+  margin-top: 110px;
+  border-radius: 15px;
+}
+
+.aboutText {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.nameText {
+  font-family: 'Noto Sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width:414px) {
+
+  .grid__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .card__1 {
+    width: 280px;
+    height: 280px;
+    padding-left: 40px;
+    margin-top: 60px;
+
+  }
+  .card__2 {
+    width: 280px;
+    height: 280px;
+    padding-left: 40px;
+    top: 40px;  
+  }
+  .card__3 {
+    width: 280px;
+    height: 280px;
+    padding-left: 40px;
+    top: 40px;  
+  }
+  .aboutText {
+    position: absolute;
+width: 280px;
+height: 16px;
+left: 20px;
+top: 1090px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+/* identical to box height, or 16px */
+text-align: center;
+color: #FFFFFF;
+  }
+}

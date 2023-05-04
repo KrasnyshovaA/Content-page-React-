@@ -1,0 +1,50 @@
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    font-Size: 70px;
+    font-Weight: 600px;
+    line-Height: 63px;
+    color: #FFFFFF;
+    margin-Top: 80px;
+    text-Align: left;
+    letter-spacing: 0em;
+}
+
+.title__2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-Size: 20px;
+    font-weight: 400px;
+    line-Height: 26px;
+    color: #FFFFFF;
+    margin-Top: 40px;
+    text-Align: left;
+    letter-spacing: 0em;
+    width: 500px;
+}
+
+@media only screen and (max-width:414px) {
+    .title {
+        width: 280px;
+        left: 20px;
+        font-style: normal;
+        font-weight: 600px;
+        font-size: 36px;
+        line-height: 90%;
+        /* or 36px */
+        color: #FFFFFF;
+        margin-Top: 20px;
+
+    }
+
+    .title__2 {
+        width: 280px;
+        left: 20px;
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 12px;
+        line-height: 130%;
+        /* or 16px */
+        color: #FFFFFF;
+        margin-Top: 20px;
+    }
+  
+}
